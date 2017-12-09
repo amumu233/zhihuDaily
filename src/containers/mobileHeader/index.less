@@ -1,0 +1,77 @@
+.MobileHeader {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    padding: 0 30px;
+    height: 48px;
+    line-height: 30px;
+    align-items: center;
+    color: #ededed;
+    user-select: none;
+    &.day {
+        background-color: #3333ff;
+    }
+    &.night {
+        background-color: #333333;
+    }
+    .antd-icon {
+        font-size: 24px;
+        cursor: pointer;
+    }
+    .pulldown {
+        position: absolute;
+        display: none;
+        padding: 10px;
+        right: 0;
+        top: 100%;
+        overflow: hidden;
+        z-index: 9999;
+        &.show {
+            display: block;
+        }
+        &.day {
+            background-color: #3333ff;
+        }
+        &.night {
+            background-color: #333333;
+        }
+        li {
+            width: 10em;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: bold;
+            text-align: center;
+            span {
+                transition: all .3s;
+                visibility: hidden;
+            }
+            &:hover {
+                span {
+                    visibility: visible;
+                }
+                span.left {
+                    margin-right: 1em;
+                }
+                span.right {
+                    margin-left: 1em;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .MobileHeader {
+        .antd-icon {
+            font-size: 24px;
+        }
+        .pulldown {
+            li {
+                width: 5em;
+                font-size: 12px;
+            }
+            
+        }
+    }
+}

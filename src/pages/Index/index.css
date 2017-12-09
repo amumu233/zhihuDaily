@@ -1,0 +1,18 @@
+p.index-title {
+  padding: 10px 10px 0 10px;
+  color: #333333;
+}
+p.index-title.night {
+  color: #aaaaaa;
+}
+.index-pages {
+  background: #cccccc;
+}
+.index-pages.night {
+  background: #333333;
+}
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}

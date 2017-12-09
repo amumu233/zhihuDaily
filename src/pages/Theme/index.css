@@ -1,0 +1,25 @@
+.theme-pages {
+  background: #cccccc;
+}
+.theme-pages.night {
+  background: #333333;
+}
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.theme-editor {
+  padding: 10px;
+  color: #111111;
+}
+.theme-editor .editor-avatar {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  border-radius: 15px;
+  vertical-align: middle;
+}
+.theme-editor.night {
+  color: #eeeeee;
+}

@@ -1,0 +1,43 @@
+.post-li {
+  flex-basis: 100%;
+  padding: 5px;
+  font-size: 14px;
+}
+.post-li.night .post-container {
+  background: #222222;
+  border: 1px solid #151515;
+}
+.post-li.night .post-container .post-title {
+  color: #eeeeee;
+}
+.post-li .post-container {
+  min-height: 80px;
+  display: flex;
+  border: 1px solid #aaaaaa;
+  border-radius: 3px;
+  background: #fff;
+  padding: 5px;
+}
+.post-li .post-container .post-title {
+  flex: 1 1 auto;
+  width: 75%;
+  padding: 5px;
+  color: #111111;
+}
+.post-li .post-container .post-thumb {
+  flex: 0 0 auto;
+  width: 75px;
+  height: 75px;
+}
+@media screen and (min-width: 468px) {
+  .post-li {
+    flex-basis: 50%;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .post-li {
+    flex-basis: 33%;
+    font-size: 16px;
+  }
+}
