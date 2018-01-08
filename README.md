@@ -1,6 +1,8 @@
 ## 预览
 - 网址: [amumu233.duapp.com](amumu233.duapp.com)
-- [](images/erweima.png)
+- 手机浏览器扫码预览    
+![](images/erweima.png)
+- [知乎日报API](https://github.com/amumu233/zhihuDaily/wiki)
 
 
 ## start
@@ -12,6 +14,15 @@
 ### node server/bin/www.js 启动开发依赖的服务器
 ### npm start 开始编译
 ### 等待浏览器自己打开...编译的过程很慢(webpack新手)
+
+## 目标功能
+- [X] 阅读模式切换(夜间/日间)
+- [X] 首页
+    - sidebar
+    - 轮播图: antd
+    - 最新文章列表
+- [X] 主题详情页面
+- [X] 文章阅读页面
 
 
 ## tec
