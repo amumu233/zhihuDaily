@@ -1,5 +1,5 @@
 ## 预览
-- 网址: [amumu233.duapp.com](amumu233.duapp.com)
+- 网址: [amumu233.duapp.com](https://amumu233.duapp.com)
 - 手机浏览器扫码预览    
 ![](images/erweima.png)
 - [知乎日报API](https://github.com/amumu233/zhihuDaily/wiki)
