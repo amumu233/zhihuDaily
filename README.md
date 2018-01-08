@@ -24,6 +24,25 @@
 - [X] 主题详情页面
 - [X] 文章阅读页面
 
+## 项目结构
+>
+>├─components            傻瓜组件     
+>│  ├─banner    
+>│  ├─footer    
+>│  ├─postLi    
+>│  └─themeImage    
+>├─containers            容器组件     
+>│  ├─articleHeader    
+>│  ├─mobileHeader    
+>│  └─sideBar     
+>├─fetch                 fetch    
+>├─pages                 页面    
+>│  ├─Article    
+>│  ├─Index    
+>│  └─Theme     
+>├─reducers              
+>└─sagas                  
+
 
 ## tec
 -------------
